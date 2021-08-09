@@ -11,7 +11,8 @@ body {
   padding-bottom: 20rem;
 }
 
-a {
+a,
+a:hover {
   text-decoration: none;
 }
 
@@ -102,3 +103,196 @@ a {
   padding: 1rem 2rem;
 }
 /* end banner */
+
+/* welcome */
+
+.welcome {
+  margin-top: 3rem;
+}
+.welcome__img {
+  max-width: 100%;
+  display: block;
+}
+
+.welcome__content {
+  align-self: center;
+}
+
+.welcome__title {
+  font-size: 2rem;
+}
+.welcome__title span {
+  font-weight: bold;
+}
+
+.welcome__desc {
+}
+
+.welcome__item {
+  margin-top: 2.5rem;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+}
+
+.welcome__btn {
+  margin-top: 2.5rem;
+  font-size: 16px;
+  color: #fff !important;
+  background-color: #0abf53;
+  border-radius: 30px;
+  padding: 12px 38px;
+  font-weight: 600;
+}
+/* end welcome */
+/* intro */
+.intro {
+  margin-top: 4rem;
+}
+.intro__title {
+  line-height: 55px;
+  font-size: 40px;
+  font-weight: 100;
+}
+.intro__img {
+  max-width: 100%;
+  display: block;
+}
+.position-relative {
+  position: relative !important;
+}
+.text-position {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  display: block;
+  background: #04040491;
+  padding: 25px;
+}
+.text-position h4 a {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+}
+.text-position p {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 15px;
+  margin-top: 4px;
+}
+.intro__content {
+  margin-top: 3rem;
+}
+
+.intro__item {
+  display: grid;
+  grid-auto-flow: column;
+  column-gap: 20px;
+}
+.intro__item--icon {
+  line-height: 65px;
+  width: 65px;
+  height: 65px;
+  background-color: rgb(10 191 83 / 10%);
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.3s ease-in;
+}
+.intro__item--icon span {
+  color: #0abf53;
+  font-size: 22px;
+  line-height: 65px;
+  transition: 0.3s ease-in;
+}
+.intro__item:hover .intro__item--icon {
+  background-color: #0abf53;
+}
+.intro__item:hover .intro__item--icon span {
+  color: #fff;
+}
+.intro__item--info p {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  color: #6b6768;
+}
+p {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  color: #6b6768;
+}
+
+.intro__item--btn {
+  color: #060606;
+  margin-top: 16px;
+  display: block;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.intro__item--btn:hover {
+  color: #0abf53;
+}
+/* end intro */
+/* cooking */
+.cooking {
+  background-color: #f4fdf8;
+  padding: 50px 0;
+}
+.cooking__title {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 55px;
+  text-transform: uppercase;
+}
+
+.cooking__btn {
+  margin-top: 2.5rem;
+  font-size: 16px;
+  color: #fff !important;
+  background-color: #0abf53;
+  border-radius: 30px;
+  padding: 12px 38px;
+  font-weight: 600;
+}
+.cooking__video {
+  position: relative;
+}
+.cooking__video img {
+  width: 100%;
+  border-radius: 20px;
+}
+.cooking span.video-play-icon {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  line-height: 70px;
+  font-size: 35px;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.3s ease-in-out;
+  animation: ripple 1s linear finite;
+  color: transparent;
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: #fff;
+  border: 4px solid #fff;
+  background: rgb(10 191 83 / 54%);
+}
+.cooking__video a {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(50% - 40px);
+}
+/* end cooking */
