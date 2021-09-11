@@ -296,3 +296,107 @@ p {
   top: calc(50% - 40px);
 }
 /* end cooking */
+/* blog */
+.blog__title {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 55px;
+}
+.blog__item--container {
+  position: relative;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.blog__item {
+  padding: 1em;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+}
+.blog__item--date {
+  text-transform: capitalize;
+  font-size: 13px;
+  line-height: 20px;
+  color: #0abf53;
+  margin-bottom: 20px;
+  display: inline-block;
+  padding: 6px 12px;
+  background: rgb(10 191 83 / 8%);
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+.blog__item img {
+  width: 100%;
+  border-radius: 15px;
+}
+.blog__item--title a {
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 20px;
+  display: inherit;
+  font-weight: 600;
+  color: black;
+  transition: 0.5s all;
+}
+.blog__item--title a:hover {
+  color: #0abf53;
+}
+ul.admin-list {
+  margin-top: 20px;
+}
+.blog__item .admin-list li {
+  display: inline-block;
+  margin: 0 20px 0 0;
+  list-style-type: none;
+}
+.blog__item .admin-list li a {
+  color: #6b6768;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+.blog__item .admin-list li a span.fa {
+  color: #0abf53;
+  width: 20px;
+  margin: 0;
+}
+/* end blog */
+/* contact */
+.contact {
+  background-color: #f4fdf8;
+}
+.contact__content {
+  justify-content: space-between;
+}
+.contact__title h3 {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 55px;
+}
+.contact__info ul.buttons li {
+  display: inline-block;
+}
+.contact__info ul.buttons li.phone {
+  font-size: 20px;
+  font-weight: 600;
+}
+.contact__info ul.buttons li.phone a.call-style {
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+}
+.contact__info ul.buttons li.green {
+  margin: 0 20px;
+}
+.button-style {
+  padding: 12px 38px;
+  font-size: 16px;
+  color: #fff;
+  background: #0abf53;
+  border-radius: 30px;
+  font-weight: 600;
+}
+/* end contact */
